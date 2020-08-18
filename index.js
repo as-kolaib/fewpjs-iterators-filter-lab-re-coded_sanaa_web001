@@ -2,7 +2,7 @@
 
 function findMatching (arr , string) {
   return arr.filter(function (item) {
-    return driverName.toLowerCase() === name.toLowerCase();
+    return item.toLowerCase() === item.toLowerCase();
   });
 }
 
