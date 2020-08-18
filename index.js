@@ -9,7 +9,7 @@ function findMatching (arr , string) {
 function fuzzyMatch (arr, string) {
   let len = string.length;
   return arr.filter(function (item) {
-    return  n.substring(0, len) === string;
+    return  item.substring(0, len) === string;
   });
 }
 
