@@ -2,7 +2,7 @@
 
 function findMatching (arr , string) {
   return arr.filter(function (item) {
-    return item.toLowerCase() === item.toLowerCase();
+    return item.toLowerCase() === string.toLowerCase();
   });
 }
 
